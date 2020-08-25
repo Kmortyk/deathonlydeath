@@ -1,0 +1,16 @@
+[
+  {
+    "name": "BLOOD_ARMOR",
+    "type": "ARMOR",
+    "hp": "1000",
+    "shield": "100",
+    "attack": "10",
+    "attack_distance": "1",
+    "speed": "1",
+    "usable": "true",
+    "text":"Restore your hp when used, but makes -10 to other stats permamently. \n ~Blood Prince wants your power!",
+    "script_names": ["test.lua"]
+
+
+  }
+]

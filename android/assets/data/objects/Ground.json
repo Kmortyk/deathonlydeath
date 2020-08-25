@@ -1,0 +1,51 @@
+[
+  {
+    "name": "GreyTiles",
+    "stepable": "true",
+    "bottomname": "GreyTiles1",
+    "step_sound": "data/sound/ground/tiles_step_sound.mp3",
+    "texture": "sprites/hex/hexagon256.png"
+  },
+
+  {
+    "name": "GreyTiles1",
+    "stepable": "true",
+    "bottomname": "GreyTiles",
+    "stepsound": "data/sound/ground/tiles_step_sound.mp3",
+    "texture": "sprites/hex/hexagon256.png"
+  },
+
+  {
+    "name": "Sand",
+    "stepable": "true",
+    "bottomname": "Sand",
+    "stepsound": "data/sound/ground/sand_step_sound.mp3",
+    "texture": "sprites/hex/sand.png"
+  },
+
+  {
+    "name": "Ground",
+    "stepable": "true",
+    "bottomname": "Ground",
+    "stepsound": "data/sound/ground/sand_step_sound.mp3",
+    "texture": "sprites/hex/ground.png"
+  },
+
+  {
+    "name": "Grass",
+    "stepable": "true",
+    "bottomname": "Ground",
+    "stepsound": "data/sound/ground/sand_step_sound.mp3",
+    "texture": "sprites/hex/grass.png"
+  },
+
+  {
+    "name": "Water",
+    "stepable": "false",
+    "bottomname": "Water",
+    "stepsound": "data/sound/ground/sand_step_sound.mp3",
+    "texture": "sprites/hex/water.png"
+  }
+
+]
+

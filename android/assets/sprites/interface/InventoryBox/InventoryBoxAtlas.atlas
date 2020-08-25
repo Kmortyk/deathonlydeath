@@ -1,0 +1,20 @@
+
+InventoryBoxAtlas.png
+size: 512,512
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+BackgroundPatched
+  rotate: false
+  xy: 2, 97
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+Cell
+  rotate: false
+  xy: 2, 2
+  size: 93, 93
+  orig: 93, 93
+  offset: 0, 0
+  index: -1

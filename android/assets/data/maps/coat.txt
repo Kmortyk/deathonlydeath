@@ -1,0 +1,45 @@
+G map
+{
+- - - - - -
+- - - - - -
+Water Sand Ground Ground Grass Grass
+Sand - Sand Ground - Ground
+Water - - Sand Ground Ground
+Water Sand Ground Ground Grass Grass
+}
+
+M map
+{
+- - - - - -
+- - - - - -
+- - - - - -
+- - - - - -
+- - - - - Gone
+- - - - - -
+}
+
+I map
+{
+- - - - - -
+- - - - - -
+- - - - - -
+- - - - - -
+- - - - BLOOD_ARMOR,BLOOD_ARMOR -
+- - - - - -
+
+}
+
+D map
+{
+- - - - - -
+- - - - - -
+- - - - - -
+- - - - - -
+- - - - - -
+- - - - - -
+}
+
+S
+{
+3 3 data/objects/scripts/hello_quest_scipt.json HelloScript
+}

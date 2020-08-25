@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Evic",
+    "hp": "100",
+    "shield": "100",
+    "attack": "10",
+    "attack_distance": "1",
+    "speed": "1",
+    "state": "NONE",
+    "talking": "true",
+    "dialogue_path":"data/objects/dialogues/evic_dialogue.json"
+  },
+
+  {
+    "name": "Gone",
+    "hp": "100",
+    "shield": "0",
+    "attack": "1",
+    "attack_distance": "1",
+    "speed": "1",
+    "state":"ANGRY",
+    "talking": "false"
+  }
+]

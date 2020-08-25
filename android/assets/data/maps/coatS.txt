@@ -1,0 +1,1 @@
+3 3 data/objects/scripts/hello_quest_scipt.json HelloScript

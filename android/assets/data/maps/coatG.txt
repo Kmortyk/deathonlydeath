@@ -1,0 +1,6 @@
+- - - - - -
+- - - - - -
+Water Sand Ground Ground Grass Grass
+Sand - Sand Ground - Ground
+Water - - Sand Ground Ground
+Water Sand Ground Ground Grass Grass

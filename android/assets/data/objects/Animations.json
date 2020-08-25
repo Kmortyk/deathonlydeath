@@ -1,0 +1,6 @@
+{
+    "spriteName":[ "LookLeft", "LookRight" ],
+    "animationFrame":["0.05", "0.05"],
+    "animationName":[ "WalkLeft", "WalkRight" ]
+}
+

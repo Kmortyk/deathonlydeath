@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_bitbucket" default="compile.module.bitbucket">
+  <dirname property="module.bitbucket.basedir" file="${ant.file.module_bitbucket}"/>
+  
+  <property name="module.jdk.home.bitbucket" value=""/>
+  <property name="module.jdk.bin.bitbucket" value=""/>
+  <property name="module.jdk.classpath.bitbucket" value=""/>
+  
+  <property name="compiler.args.bitbucket" value="-encoding UTF-8 -source 1.7 -target 1.7 ${compiler.args}"/>
+  
+  <property name="bitbucket.output.dir" value="${module.bitbucket.basedir}/build/classes/production/BitBucket"/>
+  <property name="bitbucket.testoutput.dir" value="${module.bitbucket.basedir}/build/classes/test/BitBucket"/>
+  
+  <path id="bitbucket.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="bitbucket.module.production.classpath"/>
+  
+  <path id="bitbucket.runtime.production.module.classpath">
+    <pathelement location="${bitbucket.output.dir}"/>
+  </path>
+  
+  <path id="bitbucket.module.classpath">
+    <pathelement location="${bitbucket.output.dir}"/>
+  </path>
+  
+  <path id="bitbucket.runtime.module.classpath">
+    <pathelement location="${bitbucket.testoutput.dir}"/>
+    <pathelement location="${bitbucket.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.bitbucket">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.bitbucket">
+    <patternset refid="excluded.from.module.bitbucket"/>
+  </patternset>
+  
+  
+  <target name="compile.module.bitbucket" depends="compile.module.bitbucket.production,compile.module.bitbucket.tests" description="Compile module BitBucket"/>
+  
+  <target name="compile.module.bitbucket.production" depends="register.custom.compilers" description="Compile module BitBucket; production classes"/>
+  
+  <target name="compile.module.bitbucket.tests" depends="register.custom.compilers,compile.module.bitbucket.production" description="compile module BitBucket; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.bitbucket" description="cleanup module">
+    <delete dir="${bitbucket.output.dir}"/>
+    <delete dir="${bitbucket.testoutput.dir}"/>
+  </target>
+</project>

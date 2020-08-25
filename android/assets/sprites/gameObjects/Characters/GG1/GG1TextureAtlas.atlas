@@ -1,0 +1,300 @@
+
+GG1TextureAtlas.png
+size: 2048,2048
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+WalkLeft
+  rotate: false
+  xy: 2, 776
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 17
+WalkLeft
+  rotate: false
+  xy: 776, 1550
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 0
+LookLeft
+  rotate: false
+  xy: 776, 1550
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+WalkLeft
+  rotate: false
+  xy: 2, 518
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 1
+WalkLeft
+  rotate: false
+  xy: 260, 776
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 2
+WalkLeft
+  rotate: false
+  xy: 518, 1034
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 3
+WalkLeft
+  rotate: false
+  xy: 776, 1292
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 4
+WalkLeft
+  rotate: false
+  xy: 1034, 1550
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 5
+WalkLeft
+  rotate: false
+  xy: 2, 260
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 6
+WalkLeft
+  rotate: false
+  xy: 260, 518
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 7
+WalkLeft
+  rotate: false
+  xy: 518, 776
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 8
+WalkLeft
+  rotate: false
+  xy: 776, 1034
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 9
+WalkLeft
+  rotate: false
+  xy: 260, 260
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 16
+WalkLeft
+  rotate: false
+  xy: 260, 2
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 10
+WalkLeft
+  rotate: false
+  xy: 518, 260
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 11
+WalkLeft
+  rotate: false
+  xy: 776, 518
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 12
+WalkLeft
+  rotate: false
+  xy: 1034, 776
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 13
+WalkLeft
+  rotate: false
+  xy: 1292, 1034
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 14
+WalkLeft
+  rotate: false
+  xy: 1550, 1292
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 15
+WalkLeft
+  rotate: false
+  xy: 1034, 518
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 18
+WalkLeft
+  rotate: false
+  xy: 1292, 776
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 19
+WalkRight
+  rotate: false
+  xy: 2, 1550
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 7
+WalkRight
+  rotate: false
+  xy: 2, 1292
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 8
+WalkRight
+  rotate: false
+  xy: 260, 1550
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 9
+WalkRight
+  rotate: false
+  xy: 2, 1034
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 17
+WalkRight
+  rotate: false
+  xy: 260, 1292
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 12
+WalkRight
+  rotate: false
+  xy: 518, 1550
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 0
+LookRight
+  rotate: false
+  xy: 518, 1550
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+WalkRight
+  rotate: false
+  xy: 260, 1034
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 19
+WalkRight
+  rotate: false
+  xy: 518, 1292
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 14
+WalkRight
+  rotate: false
+  xy: 1034, 1292
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 16
+WalkRight
+  rotate: false
+  xy: 1292, 1550
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 5
+WalkRight
+  rotate: false
+  xy: 2, 2
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 18
+WalkRight
+  rotate: false
+  xy: 518, 518
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 1
+WalkRight
+  rotate: false
+  xy: 776, 776
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 10
+WalkRight
+  rotate: false
+  xy: 1034, 1034
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 11
+WalkRight
+  rotate: false
+  xy: 1292, 1292
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 13
+WalkRight
+  rotate: false
+  xy: 1550, 1550
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 3
+WalkRight
+  rotate: false
+  xy: 518, 2
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 2
+WalkRight
+  rotate: false
+  xy: 776, 260
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 15
+WalkRight
+  rotate: false
+  xy: 1550, 1034
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 4
+WalkRight
+  rotate: false
+  xy: 776, 2
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: 6

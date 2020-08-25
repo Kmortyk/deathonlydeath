@@ -1,0 +1,79 @@
+[
+    {
+      "id": "1",
+      "text": "Привет!",
+      "isChoice": "true",
+      "answers":[
+        {
+          "id": "0",
+          "text": "Я убью тебя!",
+          "next_id": "2"
+        },
+        {
+          "id": "1",
+          "text": "Привет",
+          "next_id": "3"
+        },
+        {
+          "id": "2",
+          "text": "=Выход=",
+          "next_id": "-1"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "text": "Какой ты грубый, мальчик Томми...",
+      "isChoice": "false",
+      "next_id": "-4"
+    },
+    {
+      "id": "3",
+      "text": "Сделай кое-что для меня",
+      "quest_name": "Hello!",
+      "quest_path": "data/objects/quests/evic_quests.json",
+      "isChoice": "false",
+      "next_id": "7"
+    },
+
+  {
+    "id": "4",
+    "text": "Ну что, уже перевоспитался?",
+    "isChoice": "true",
+    "answers":[
+      {
+        "id": "0",
+        "text": "Да",
+        "next_id": "5"
+      },
+      {
+        "id": "1",
+        "text": "Да!",
+        "next_id": "6"
+      }
+    ]
+
+  },
+
+  {
+    "id": "5",
+    "text": "Молодец",
+    "isChoice": "false",
+    "next_id": "-1"
+  },
+  {
+    "id": "6",
+    "text": "Молодец!",
+    "isChoice": "false",
+    "next_id": "-1"
+  },
+
+  {
+    "id": "7",
+    "text": "*Получен квест*",
+    "isChoice": "false",
+    "next_id": "-7"
+  }
+
+
+  ]

@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Hero",
+    "hp": "100",
+    "shield": "100",
+    "attack": "10",
+    "attack_distance": "1",
+    "speed": "1",
+    "gr_path":"sprites/gameObjects/Characters/GG1/GG1TextureAtlas.atlas"
+  },
+
+  {
+    "name": "Mr.Kotyk",
+    "hp": "100",
+    "shield": "100",
+    "attack": "10",
+    "attack_distance": "1",
+    "speed": "1",
+    "gr_path":"sprites/gameObjects/Characters/GG1/GG1TextureAtlas.atlas",
+    "gr_face_id":"0"
+  },
+
+  {
+    "name": "BetmenBroni",
+    "hp": "100",
+    "shield": "100",
+    "attack": "10",
+    "attack_distance": "1",
+    "speed": "1",
+    "gr_path":"sprites/gameObjects/Characters/GG1/GG1TextureAtlas.atlas",
+    "gr_face_id":"1"
+  }
+]
